@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS person;
+
+CREATE TABLE person (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    nickname VARCHAR(100)
+);
