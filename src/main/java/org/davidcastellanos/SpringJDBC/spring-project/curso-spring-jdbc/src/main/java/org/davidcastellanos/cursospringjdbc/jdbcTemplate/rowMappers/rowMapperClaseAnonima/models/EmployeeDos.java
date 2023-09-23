@@ -1,0 +1,60 @@
+package org.davidcastellanos.cursospringjdbc.jdbcTemplate.rowMappers.rowMapperClaseAnonima.models;
+
+public class EmployeeDos {
+    private Integer id;
+    private String name;
+    private String lastName;
+    private Integer age;
+    private Integer salary;
+
+    public EmployeeDos() {
+    }
+
+    public EmployeeDos(Integer id, String name, String lastName, Integer age, Integer salary) {
+        this.id = id;
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+        this.salary = salary;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public Integer getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Integer salary) {
+        this.salary = salary;
+    }
+}
