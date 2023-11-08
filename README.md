@@ -1,3 +1,3 @@
-# Java JDBC and JPA
+# Java JDBC
 
-repository for database manipulation practice (CRUD) on SQL database using java JDBC and Spring JPA
+repository for database manipulation practice (CRUD) on SQL database using java JDBC
